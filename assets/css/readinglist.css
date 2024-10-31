@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'readinglist-ico';
+    src:  url('../fonts/readinglist-ico.eot?bowzis');
+    src:  url('../fonts/readinglist-ico.eot?bowzis#iefix') format('embedded-opentype'),
+    url('../fonts/readinglist-ico.ttf?bowzis') format('truetype'),
+    url('../fonts/readinglist-ico.woff?bowzis') format('woff'),
+    url('../fonts/readinglist-ico.svg?bowzis#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="rl-icon-"], [class*=" rl-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'readinglist-ico' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.rl-icon-trash:before {
+    content: "\e9ac";
+}
+.rl-icon-list:before {
+    content: "\e9bb";
+}
+
+.js-show-hide-readinglist {
+    position: fixed;
+    top: 30%;
+    right: 0;
+    background-color: #fff661;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition: .3s linear all;
+}
+
+.js-show-hide-readinglist.close {
+    right: -60px;
+}
+
+.js-show-hide-readinglist::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-right: 25px solid #fff661;
+    right: 0;
+    bottom: -25px;
+}
+
+.js-show-hide-readinglist span {
+    padding: 20px;
+    display: inline-block;
+}
+
+.js-reading-list {
+    box-shadow: -4px 5px 18px -3px #888888;
+    position: fixed;
+    top: 30%;
+    right: -320px;
+    width: 300px;
+    min-height: 300px;
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+    transition: .3s linear all;
+}
+
+.js-reading-list.open {
+    right: 0;
+}
+
+.js-reading-list .reading-list-header {
+    padding: 10px;
+    text-align: center;
+    background-color: #fff661;
+}
+
+.js-reading-list .reading-list-header .js-close-list {
+    color: #fff;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.js-reading-list .js-readinglist-container {
+    margin-top: 1rem;
+    list-style: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+.js-reading-list .js-readinglist-container .item {
+    position: relative;
+}
+
+.js-reading-list .js-readinglist-container .rl-icon-trash.js-delete-item {
+    color: #ff6035;
+    position: absolute;
+    right: 0;
+    top: 4px;
+}
+
+.js-empty-reading-list {
+    padding: 10px;
+}
+
+.close-button {
+    width: 18px;
+    height: 18px;
+    background-image: url('../img/cancel.png');
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.item-fadeout {
+    opacity: .4;
+}
+
+.readinglist-footer {
+    padding: 5px 10px;
+    font-size: .9rem;
+}
+
+.readinglist-footer a {
+    color: inherit;
+}

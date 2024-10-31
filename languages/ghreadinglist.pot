@@ -1,0 +1,317 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Readinglist\n"
+"POT-Creation-Date: 2021-01-16 19:18+0100\n"
+"PO-Revision-Date: 2018-08-21 15:49+0200\n"
+"Last-Translator: Sander de Wijs <info@degrinthorst.nl>\n"
+"Language-Team: Sander de Wijs <info@degrinthorst.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: gh-reading-list.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: gh-reading-list.php:156
+msgid "My readinglist"
+msgstr ""
+
+#: gh-reading-list.php:156
+msgid "articles"
+msgstr ""
+
+#: gh-reading-list.php:170
+msgid "View all items"
+msgstr ""
+
+#: gh-reading-list.php:238 gh-reading-list.php:263
+msgid "Add to my readinglist"
+msgstr ""
+
+#: inc/gh-readinglist-settings.php:19
+msgid "Readinglist settings"
+msgstr ""
+
+#: inc/gh-readinglist-settings.php:27
+msgid "Base color"
+msgstr ""
+
+#: inc/gh-readinglist-settings.php:28
+msgid ""
+"Set the basic color (hex value) of the readinglist to fit your theme "
+"(example: #ffffff)"
+msgstr ""
+
+#: inc/gh-readinglist-settings.php:35
+msgid "Default text when list is empty"
+msgstr ""
+
+#: inc/gh-readinglist-settings.php:36
+msgid "Set the text which is displayed when the list is empty"
+msgstr ""
+
+#: inc/gh-readinglist-settings.php:41
+msgid "Set for post types"
+msgstr ""
+
+#: inc/gh-readinglist-settings.php:42
+msgid ""
+"Select for which post type you want to enable the add to my readinglist "
+"button. This button will be placed above the post content"
+msgstr ""
+
+#: inc/gh-readinglist-settings.php:49
+msgid "Readinglist Btn class"
+msgstr ""
+
+#: inc/gh-readinglist-settings.php:50
+msgid ""
+"Add a class for the add-to readinglist button. Default is set to bootstrap "
+"btn btn-primary"
+msgstr ""
+
+#: inc/gh-readinglist-settings.php:57
+msgid "Use shortcode"
+msgstr ""
+
+#: inc/gh-readinglist-settings.php:58
+msgid ""
+"If the shortcode is enabled, the readingbutton is no longer displayed above "
+"each article. You can place the shortcode wherever you want the button to "
+"appear."
+msgstr ""
+
+#: inc/gh-readinglist-settings.php:63
+msgid "Load in custom position"
+msgstr ""
+
+#: inc/gh-readinglist-settings.php:64
+msgid ""
+"If unchecked, this loads the Readinglist markup in the wp_footer() hook. If "
+"you want to execute the HTML somewhere else, uncheck this option and place "
+"the <code>gh_readinglist_container_html()</code> function in your theme "
+"where you want the markup to be rendered."
+msgstr ""
+
+#: inc/gh-readinglist-settings.php:69
+msgid "Readinglist page"
+msgstr ""
+
+#: inc/gh-readinglist-settings.php:70
+msgid ""
+"This page contains all the articles on the readinglist (starting from "
+"version 1.3, the list contains only the last 15 items). You can use the "
+"shortcode [readinglist_total_list] to display it on the page"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:38
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:20
+msgid "Basic Settings"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:42
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:24
+msgid "Advanced Settings"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:46
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:28
+msgid "Other Settings"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:62
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:202
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:36
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:111
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:187
+msgid "Text Input"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:63
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:203
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:37
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:112
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:188
+msgid "Text input description"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:70
+msgid "Number Input"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:71
+msgid "Number field with validation callback `intval`"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:78
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:209
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:43
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:118
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:194
+msgid "Textarea Input"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:79
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:210
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:44
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:119
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:195
+msgid "Textarea description"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:84
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:215
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:49
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:124
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:200
+msgid "Checkbox"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:85
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:216
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:50
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:125
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:201
+msgid "Checkbox Label"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:90
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:221
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:55
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:130
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:206
+msgid "Radio Button"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:91
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:222
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:56
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:131
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:207
+msgid "A radio button"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:100
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:163
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:231
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:65
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:141
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:216
+msgid "Multile checkbox"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:101
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:164
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:232
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:66
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:142
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:217
+msgid "Multi checkbox description"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:112
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:176
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:243
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:77
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:154
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:228
+msgid "A Dropdown"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:113
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:177
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:244
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:78
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:155
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:229
+msgid "Dropdown description"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:123
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:149
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:186
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:253
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:88
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:164
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:238
+msgid "Password"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:124
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:150
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:187
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:254
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:89
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:165
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:239
+msgid "Password description"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:130
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:193
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:260
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:95
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:171
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:245
+msgid "File"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:131
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:194
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:261
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:96
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:172
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:246
+msgid "File description"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:142
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:102
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:178
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:252
+msgid "Color"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:143
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:103
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:179
+#: vendor/tareq1988/wordpress-settings-api-class/example/procedural-example.php:253
+msgid "Color description"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:156
+msgid "Advanced Editor"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/example/oop-example.php:157
+msgid "WP_Editor description"
+msgstr ""
+
+#: vendor/tareq1988/wordpress-settings-api-class/src/class.settings-api.php:358
+msgid "Choose File"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Readinglist"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A readinglist where registered users can add favorite articles"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sander de Wijs"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.degrinthorst.nl"
+msgstr ""

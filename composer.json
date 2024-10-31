@@ -1,0 +1,14 @@
+{
+    "name": "sanderdewijs/gh-reading-list",
+    "description": "Readinglist plugin assets",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Sander de Wijs",
+            "email": "info@degrinthorst.nl"
+        }
+    ],
+    "require": {
+        "tareq1988/wordpress-settings-api-class": "^1.2"
+    }
+}
